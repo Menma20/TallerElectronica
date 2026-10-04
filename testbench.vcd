@@ -1,0 +1,72 @@
+$date
+   Sun Oct  4 22:12:33 2026 UTC
+$end
+$version
+    MyHDL 0.11.52
+$end
+$timescale
+    1ns
+$end
+
+  $scope module testbench $end
+    $var reg 7 ! sseg $end
+    $var reg 4 " din $end
+    $scope module seven_segment_decoder0 $end
+      $var reg 4 " din $end
+      $var reg 7 ! sseg $end
+    $upscope $end
+  $upscope $end
+
+$enddefinitions $end
+
+$dumpvars
+b0000000 !
+b0000 "
+$end
+b1111110 !
+#10
+b0001 "
+b0110000 !
+#20
+b0010 "
+b1101101 !
+#30
+b0011 "
+b1111001 !
+#40
+b0100 "
+b0110011 !
+#50
+b0101 "
+b1011011 !
+#60
+b0110 "
+b1011111 !
+#70
+b0111 "
+b1110000 !
+#80
+b1000 "
+b1111111 !
+#90
+b1001 "
+b1111011 !
+#100
+b1010 "
+b1101111 !
+#110
+b1011 "
+b1001000 !
+#120
+b1100 "
+b1001110 !
+#130
+b1101 "
+b1111000 !
+#140
+b1110 "
+b0001110 !
+#150
+b1111 "
+b0001001 !
+#160
